@@ -2,9 +2,20 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-import { router } from './router'
 
-Vue.config.productionTip = false
+import VueRouter from 'vue-router'
+import VueResource from 'vue-resource'
+// import router from './router'
+import { router } from './router';
+import { shareJs } from './utils';
+import MintUI from 'mint-ui';
+import 'mint-ui/lib/style.css';
+
+Vue.use(MintUI);
+Vue.use(VueRouter);
+Vue.use(VueResource);
+
+Vue.config.productionTip = false;
 
 // /* eslint-disable no-new */
 new Vue({
