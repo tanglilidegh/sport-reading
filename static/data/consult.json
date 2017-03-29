@@ -1,0 +1,25 @@
+{
+    "code": 0,
+    "msg": "get member success",
+    "content": {
+        "plank_id": "1",
+        "start_at": "1234567890",
+        "status": "3",
+        "members_num": 1,
+        "members": [
+            {
+                "id": "14",
+                "name": "",
+                "avatar": "",
+                "status": "3"
+            }
+        ]
+    },
+    "is_mobile_user": false,
+    "jssdk": {
+        "appId": "wxec4d172a4f73ee6f",
+        "timestamp": "1490367697",
+        "nonceStr": "58d534d1b536a",
+        "signature": "d8d8ceb0f39ddeb3085fd197e5df5caddb1f1ba1"
+    }
+}
